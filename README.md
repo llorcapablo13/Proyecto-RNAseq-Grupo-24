@@ -35,6 +35,7 @@ This repository contains the sequences, scripts and documentation necessary to c
 
 All of this has been organized as follows:
 
+```
 Proyecto-RNAseq-Grupo-24/
 ├── Differential analysis/
 │   ├── Data/
@@ -72,3 +73,4 @@ Proyecto-RNAseq-Grupo-24/
 │       ├── baseline/
 │       └── README.md
 └── README.md
+```

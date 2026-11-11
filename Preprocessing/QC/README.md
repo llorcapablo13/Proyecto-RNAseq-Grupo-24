@@ -106,3 +106,5 @@ If a sample is identified as an outlier (very few reads, poor quality or clearly
 ## 10. QC results
 
 *Not available yet. This section will be completed when the scripts are run with real data (number of samples reviewed, tools used, observations and any problematic samples).*
+
+**Maintainer:** Patricia Mª Santiago.

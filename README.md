@@ -32,3 +32,46 @@ Investigate the biological processes, molecular pathways, and cellular mechanism
 
 ## Repository Structure
 This repository contains the sequences, scripts and documentation necessary to carry out RNA-seq data processing, differential gene expression analysis and subsequent functional analyses for data interpretation.
+
+All of this has been organized as follows:
+
+```
+Proyecto-RNAseq-Grupo-24/
+├── Differential analysis/
+│   ├── Data/
+│   ├── Results/
+│   │   └── Plots/
+│   ├── scripts/
+│   └── README.md
+├── Pathway analysis/
+│   ├── GO_results/
+│   ├── GSEA_results/
+│   ├── KEGG_results/
+│   ├── Scripts/
+│   ├── figures/
+│   │   ├── GO_plots/
+│   │   ├── GSEA_plots/
+│   │   ├── Heatmap_plots/
+│   │   └── KEGG_plots/
+│   ├── interpretation/
+│   └── README.md
+├── Preprocessing/
+│   ├── Alignment/
+│   │   ├── BAM files/
+│   │   ├── Scripts/
+│   │   └── README.md
+│   └── QC/
+│       ├── fastqc/
+│       ├── figures/
+│       ├── multiqc/
+│       ├── scripts/
+│       └── README.md
+├── data/
+│   └── raw/
+│       ├── Combi/
+│       ├── RT/
+│       ├── baseline/
+│       └── README.md
+└── README.md
+```
+

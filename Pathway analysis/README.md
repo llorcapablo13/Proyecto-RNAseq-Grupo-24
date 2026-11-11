@@ -3,7 +3,7 @@
 
 ## Place in the workflow
 ```
-FASTQ files  →  QC of reads  →  Alignment / quantification  →  Count matrix  →  QC of counts (this folder)  →  Differential analysis  →  Pathway analysis (this folder)
+FASTQ files  →  QC of reads  →  Alignment / quantification  →  Count matrix  →  QC of counts  →  Differential analysis  →  Pathway analysis (this folder)
 ```
 
 ## Directory structure

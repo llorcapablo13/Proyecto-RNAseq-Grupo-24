@@ -37,13 +37,30 @@ All of this has been organized as follows:
 
 ```
 Proyecto-RNAseq-Grupo-24/
-├── Differential analysis/
+├── 01_data/raw/
+│   └── raw/
+│       ├── Combi/
+│       ├── RT/
+│       ├── baseline/
+│       └── README.md
+├── 02_Preprocessing/
+│   ├── Alignment/
+│   │   ├── BAM files/
+│   │   ├── Scripts/
+│   │   └── README.md
+│   └── QC/
+│       ├── fastqc/
+│       ├── figures/
+│       ├── multiqc/
+│       ├── scripts/
+│       └── README.md
+├──03_Differential analysis/
 │   ├── Data/
 │   ├── Results/
 │   │   └── Plots/
 │   ├── scripts/
 │   └── README.md
-├── Pathway analysis/
+├── 04_Pathway analysis/
 │   ├── GO_results/
 │   ├── GSEA_results/
 │   ├── KEGG_results/
@@ -55,23 +72,6 @@ Proyecto-RNAseq-Grupo-24/
 │   │   └── KEGG_plots/
 │   ├── interpretation/
 │   └── README.md
-├── Preprocessing/
-│   ├── Alignment/
-│   │   ├── BAM files/
-│   │   ├── Scripts/
-│   │   └── README.md
-│   └── QC/
-│       ├── fastqc/
-│       ├── figures/
-│       ├── multiqc/
-│       ├── scripts/
-│       └── README.md
-├── data/
-│   └── raw/
-│       ├── Combi/
-│       ├── RT/
-│       ├── baseline/
-│       └── README.md
 └── README.md
 ```
 

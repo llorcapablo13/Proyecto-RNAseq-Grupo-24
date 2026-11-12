@@ -16,13 +16,6 @@ step, together with a sample metadata table.
 | RT       | Post-treatment | Radiotherapy                | 4 | P01-P04  |
 | Combi    | Post-treatment | Radiotherapy + ceralasertib | 4 | P05-P08  |
 
-## Comparisons
-
-| Comparison        | Design                          |
-|-------------------|---------------------------------|
-| RT vs Baseline    | Paired (same patients, P01-P04) |
-| Combi vs Baseline | Paired (same patients, P05-P08) |
-| Combi vs RT       | Unpaired (different patients)   |
 
 ## Folder structure
 - `Data/`: count matrix (`count_matrix.csv`) and sample metadata (`sample_metadata.csv`).
